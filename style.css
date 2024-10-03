@@ -201,6 +201,9 @@ hr {
   cursor: pointer;
   border-radius: 50px;
 }
+.reward-btn:hover{
+  background-color: var(--primary2);
+}
 .remaining {
   color: var(--neutral2);
   font-size: 400;
@@ -295,6 +298,9 @@ hr {
   font-weight: 400;
   font-size: 1em;
 }
+.showColor{
+border-color: hsl(176, 50%, 47%);
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -318,6 +324,7 @@ input[type=number] {
 
  input[type="radio"]:checked {
   background: var(--primary1);
+  border:1px solid  var(--neutral2);
  }
  
  
@@ -326,7 +333,6 @@ input[type=number] {
   color:hsl(0, 0%, 48% ,0.6);
 }
 .confirmation{
-
   text-align:center;
 }
 .input-group{
@@ -336,11 +342,16 @@ input[type=number] {
   border-radius: 50px;
   margin: auto;
   margin-right: 1.5rem;
+  cursor: pointer;
+}
+.input-group:hover {
+border-color: var(--primary1);
 }
 .input-group-text,.input-group .form-control{
   background: #fff;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 .input-group .form-control::placeholder{
   color: var(--neutral1);
@@ -358,7 +369,9 @@ input[type=number] {
   margin: auto;
 }
 
-
+.confirm-bamboo-btn:hover ,.confirm-black-btn:hover{
+  background: var(--primary2);
+}
 
 
 .mahogany-pledge .pledge-type,.mahogany-pledge .num{
@@ -372,7 +385,10 @@ input[type=number] {
   color:hsl(0, 0%, 48%,0.5) ;
 }
 
-
+.pledge-type:not(.mahogany-pledge .pledge-type):hover{
+  cursor: pointer;
+  color:var(--primary1);
+}
 
 
 
